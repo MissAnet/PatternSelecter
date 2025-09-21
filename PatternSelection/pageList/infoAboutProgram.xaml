@@ -1,0 +1,33 @@
+﻿<Page x:Class="PatternSelection.pageList.infoAboutProgram"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PatternSelection.pageList"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="infoAboutProgram">
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontFamily" Value="Comic Sans MS" />
+            <Setter Property="FontWeight" Value="Thin" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="Margin" Value="20,0" />
+            <Setter Property="Foreground" Value="white" />
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+    </Page.Resources>
+    
+    <Border Margin="10" Background="#165650" CornerRadius="20">
+        <UniformGrid Columns="1">
+            <TextBlock Text="Данная система предоставляет возможность изучения и подбора паттернов, а также список задач по ним."/>
+            <TextBlock Text="На странице паттерн есть возможность посмотреть весь список паттернов."/>
+            <TextBlock Text="При двойном нажатие левой кнопки мыши на паттерн, открывается страница подробной информации паттерна."/>
+            <TextBlock Text="На странице подробной информации есть 3 кнопки:Вернуться назад, редактирвоать паттерн, добавить паттерн."/>
+            <TextBlock Text="При добавление и редактирование паттерна необходимо корректно заполнить все поля на странице, а затем нажать кнопку добавить или редактировать, в зависимости от страницы"/>
+            <TextBlock Text="Страница Подбор паттерна позволяет выбрать нужный параметр и найти подходящий паттерн"/>
+        </UniformGrid>
+    </Border>
+</Page>

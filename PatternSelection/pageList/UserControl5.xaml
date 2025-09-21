@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="PatternSelection.pageList.UserControl5"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PatternSelection.pageList"
+             mc:Ignorable="d">
+    <Border CornerRadius="20" 
+                            Background="#165650" 
+                            x:Name="border2" 
+                            Margin="0,5,10,5" 
+                            HorizontalAlignment="Left" 
+                            MouseEnter="border1_MouseEnter"
+                            MouseLeave="border1_MouseLeave">
+        <TextBlock Text="{Binding textTag}" 
+                                    FontSize="10"
+                                    FontFamily="Comic Sans MS"
+                                   VerticalAlignment="Center"
+                                   Margin="5" 
+                                   x:Name="textT"
+                                   FontWeight="Bold"
+                                   Foreground="White"
+                                   TextWrapping="Wrap"/>
+    </Border>
+</UserControl>
